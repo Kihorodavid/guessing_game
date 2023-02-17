@@ -18,7 +18,7 @@ while counter < 5:
 
 # check if user input is equal to generated number
     if user_number < random_number:
-        print("Your guess is too low")
+        print("Your guess is too low , Try again")
     elif user_number > random_number:
         print("Your number is too high. ") 
     elif user_number == random_number:
